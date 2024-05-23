@@ -1,0 +1,1011 @@
+*{
+  padding:0;
+  margin:0;
+  outline:none;
+  border:none;
+}
+
+
+header{
+  top:0;
+  left:0;
+  width:100%;
+  padding: 0.8rem 0;
+  position: fixed;
+  top:0;
+  z-index:1000;
+}
+
+body{
+  background:url(../Images/bgImg.webp);
+}
+
+.head-color{
+  background-color: green;
+}
+
+
+
+
+.container-header{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background-color: gold;
+}
+
+.signup-btn-mobile{
+  display: none;
+}
+
+.delivery-btn-mobile{
+  display: none;
+}
+
+.store-btn-mobile{
+  display: none;
+}
+
+.grocies-img{
+  margin:0;
+  top:0;
+  width:130px; 
+  height:120px;
+}
+.search-bar{
+  background-color: white;
+  border-radius: 3rem;
+  padding: 0.6rem 1rem;
+
+}
+
+.search-bar input[type="search"]{
+  background: transparent;
+  width:30vw;
+  margin-left:1rem;
+  font-size: 0.9rem;
+  color: hsl(252, 30%, 17%);
+}
+
+nav .button-header{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+.signup-btn{
+  display: inline-block;
+  padding: 0.5rem 1.3rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+  border: 2px solid white;
+  line-height: 1;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin: 0 0.2rem;
+  color:black;
+  background-color: white ;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.signup-btn:hover{
+  opacity: 0.8;
+}
+
+.delivery-btn{
+  display: inline-block;
+  padding: 0.5rem 1.3rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+  border: 2px solid white;
+  line-height: 1;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin: 0 0.2rem;
+  color:white;
+  background-color: transparent ;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.store-btn{
+  display: inline-block;
+  padding: 0.5rem 1.3rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+  border: 2px solid white;
+  line-height: 1;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin: 0 0.2rem;
+  color:white;
+  background-color: transparent ;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.signup-btn a{
+  text-decoration: none;
+  color: black;
+}
+.store-btn a{
+  text-decoration: none;
+  color: white;
+}
+.delivery-btn a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.nav-bar{
+  position:sticky;
+  
+
+
+}
+nav ul {
+  margin-top: 10px;
+  list-style: none;
+  
+  
+}
+.nav-bar ul li {
+  position: relative; 
+  float:left;
+  margin-inline-start: 88px;
+}
+
+
+.nav-bar ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size:20px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar ul li a:hover {
+  background-color: #333; 
+}
+
+
+.dropbutton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  font-size:16px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 200px;
+  z-index: 1;
+  cursor:pointer;
+}
+
+
+.dropdown-content a {
+  color: white;
+  font-size:25px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbutton {
+  background-color: #333;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:grey;
+  min-width: 200px;
+  z-index:1;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-content a:hover{
+  background-color:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.dropdown-content a {
+  text-align: left;
+}
+
+
+
+
+.aboutus-heading h1{
+    position: absolute;
+    background-color:black;
+    color:gold;
+    text-align:center;
+    top:218px;
+    left:0;
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+
+  .aboutus-decription{
+    position:absolute;
+    font-size:large;
+    background-color: green;
+    color: white;
+    width: 1450px;
+    left:0;
+    top:255px;
+    padding: 35px;
+    
+
+    ul li{
+        position:relative;
+       font-size:large;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+  }
+
+  .branch-heading h1{
+    background-color:white;
+    color:green;
+    text-align:center;
+    width:100%;
+    position: relative;
+    top:465px;
+  }
+
+  .Branch1{
+    position:absolute;
+    width:80%;
+    left: 10%;
+    top: 520px;
+    background-color:black;
+    padding:0.8%;
+    border:5rem;
+    border: 5px solid white;
+   
+    .Branch1_heading{
+      color:gold;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size:xx-large;
+      text-align:center;
+
+      }
+  
+      .Branch1_img{
+        float: left;
+        width: 60%;
+      }
+  
+      .Branch1_description{
+        top: 65px;
+        
+        left: 750px;
+        color:white;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:x-large;
+      
+      }
+  
+      .map1{
+        position: absolute;
+        left:755px;
+        top:210px;
+        width: 450px;
+        height: 380px;
+      }
+  
+  }
+
+  .Branch2{
+    position:absolute;
+    width:80%;
+    left: 10%;
+    top: 1200px;
+    background-color:black;
+    padding:0.8%;
+    border:5rem;
+    border: 5px solid white;
+   
+    .Branch2_heading{
+      color:gold;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size:xx-large;
+      text-align:center;
+      }
+  
+      .Branch2_img{
+        float: right;
+        width: 60%;
+      }
+  
+      .Branch2_description{
+        top: 50px;
+        position:absolute;
+        right: 740px;
+        color:white;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:x-large;
+      
+      }
+  
+      .map2{
+        position: absolute;
+        right:765px;
+        top:255px;
+        width: 465px;
+        height: 400px;
+      }
+  
+  }
+
+  .Branch3{
+    position:absolute;
+    width:80%;
+    left: 10%;
+    top: 1900px;
+    background-color:black;
+    padding:0.8%;
+    border:5rem;
+    border: 5px solid white;
+   
+    .Branch3_heading{
+      color:gold;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size:xx-large;
+      text-align:center;
+      }
+  
+      .Branch3_img{
+        float: left;
+        width: 60%;
+      }
+  
+      .Branch3_description{
+        top: 50px;
+        position:absolute;
+        left: 750px;
+        color:white;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:x-large;
+      
+      }
+  
+      .map3{
+        position: absolute;
+        left:750px;
+        top:230px;
+        width: 470px;
+        height: 220px;
+      }
+  
+  }
+
+  .services-heading h1{
+  background-color: white;
+  color: green;
+  top: 2400px;
+  width:100%;
+  position: absolute;
+  text-align: center;
+  
+  }
+
+
+
+  .table{
+    top:2420px;
+    position: relative;
+    width: 1400px;
+    border-collapse: collapse;
+    margin-left: 20px;
+    left: 50px;
+    padding: 10px; 
+    border: 2px solid white;
+    background-color: green;
+    font-size:xx-large;
+    text-align:center;
+
+  }
+  
+   .table thead th{
+    background-color: black;
+    color:gold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+   }
+  
+
+.table tbody{
+    border: 2px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    color: white;
+}
+
+.border-color{
+  border: 2px solid white;
+}
+
+.table thead th{
+  border: 2px solid white;
+  font-size: 30px;
+}
+.table tbody td{
+  border: 2px solid white;
+  font-size: 30px;
+}
+
+.table tbody tr:nth-of-type(even){
+  
+    background-color:gold;
+        
+}
+
+.table tbody tr:nth-of-type(odd){
+  border: 2px solid white;
+
+    background-color:yellowgreen;
+        
+}
+
+.table tfoot {
+  font-size: 28px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  
+}
+
+
+
+
+
+.footer-container {
+  position: relative;
+  top: 2450px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: green;
+  
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: gold;
+  padding: 20px;
+}
+
+.footer-content {
+  flex: 1 1 33%;
+  margin-bottom: 20px;
+}
+
+.footer-content h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer-content p {
+  text-align: center;
+}
+
+.list {
+  padding: 0;
+}
+
+.list li {
+  list-style-type: none;
+  padding: 7px;
+  text-align: center;
+}
+
+.social-icons {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+
+.social-icons dd {
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: green;
+  font-size: 20px;
+}
+
+.bottom-bar {
+  text-align: center;
+  background-color: green;
+  padding: 8px 0;
+  color: white;
+  width:100%;
+}
+
+@media screen and (max-width:600px){
+    
+  header{
+    padding: 2px 8px;
+
+}
+body{
+    background-size: auto;
+}
+header nav{
+    position: absolute;
+    width:100%;
+    top: 120px;
+    left:0;
+    background-color: rgb(8, 146, 8);
+
+}
+
+
+
+
+  
+
+
+.dropdown .dropdown-content{
+    position: relative;
+    background-color: #546e7b;
+    top:0;
+    left:0;
+}
+
+.search-bar{
+    background-color: white;
+    border-radius: 2rem;
+    padding: 0.3rem 2rem;
+    
+}
+
+
+.signup-btn{
+    display: none;
+}
+
+.delivery-btn{
+    display: none;
+}
+
+.store-btn{
+    display: none;
+}
+    
+.signup-btn-mobile{
+    display: block;
+    padding: 0.5rem 1.3rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    border: 2px solid white;
+    line-height: 1;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    color:gold;
+    background-color: black;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 80px;
+    left: 230px;
+    transform: translateY(-15%);
+}
+ 
+.signup-btn-mobile:hover{
+    color: black;
+    background-color: white;
+}
+main{
+
+    position: relative;
+
+}
+
+    .delivery-btn-mobile{
+        font-size: 12px;
+        display: block;
+        padding: 0.5rem 1.3rem;
+        font-weight: 500;
+       
+        border: 2px solid white;
+        line-height: 1;
+        border-radius: 2rem;
+        cursor: pointer;
+        margin: 0 0.2rem;
+        color:white;
+        background-color: black ;
+        transition: 0.3s;
+        text-transform: uppercase;
+        position: absolute;
+        top: 30px;
+        left: 160px;
+        transform: translateX(3%);
+    }
+
+    .delivery-btn-mobile:hover{
+        background-color: transparent;
+    }
+
+    .store-btn-mobile{
+        display: inline-block;
+        padding: 0.5rem 1.3rem;
+        font-weight: 500;
+        font-size: 12px;
+        border: 2px solid white;
+        line-height: 1;
+        border-radius: 2rem;
+        cursor: pointer;
+        margin: 0 0.2rem;
+        color:white;
+        background-color: black;
+        transition: 0.3s;
+        text-transform: uppercase;
+        position: absolute;
+        top: 30px;
+        left: 280px;
+        transform: translateX(50%);
+    }
+
+    .store-btn-mobile:hover{
+        background-color: gold;
+    }
+
+    .signup-btn-mobile a{
+      text-decoration: none;
+      color:gold;
+  }
+
+  .store-btn-mobile a{
+      text-decoration: none ;
+      color: white;
+  }
+
+  .delivery-btn-mobile a{
+      text-decoration: none ;
+      color: white;
+  }
+
+   
+    .nav-bar{
+        width: 400px;
+    }
+    .nav-bar ul li {
+        position: relative; 
+        float:left;
+        margin-inline-start: 10px;
+    }
+    
+    .nav-bar ul li a {
+        display: block;
+        padding: 5px 10px;
+        text-transform: capitalize;
+        font-size:18px;
+        color: white;
+        transition: background-color 0.3s ease;
+    }
+
+    .dropbutton {
+        background-color: transparent;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        transition: background-color 0.3s ease;
+        font-size:15px;
+        left:10px;
+    }
+    
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        min-width: 100px;
+        z-index: 1;
+        cursor:pointer;
+    }
+    
+    
+    .dropdown-content a {
+        color: white;
+        font-size:15px;
+        padding: 5px 10px;
+        text-decoration: none;
+        display: block;
+        transition: background-color 0.3s ease;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+
+    }
+    
+    .dropdown:hover .dropbutton {
+        background-color: #333;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:grey;
+        min-width: 100px;
+        z-index:1;
+        top: 100%;
+        left: 0;
+    }
+    
+    .dropdown-content a:hover{
+        background-color:0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    .dropdown-content a {
+        text-align: left;
+    }
+
+    .container-header {
+        flex-direction: column; 
+        align-items:first baseline;
+    }
+
+    
+    .logo{
+      margin-bottom: 0;
+      margin-left: 0;
+    }
+    
+    .search-bar{
+        margin-inline-start :20px;
+        margin-inline-end: 10px;
+        width: 50%;
+    }
+
+    .buttons-header {
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column; 
+        align-items: flex-start;
+
+    }
+    
+    
+
+    
+        .signup-btn,
+        .delivery-btn,
+        .store-btn {
+            margin-top: 0.5rem; 
+            transform: translateY(0); 
+        }    
+
+      .aboutus-heading h1{
+        
+        top:230px;
+        font-size:25px;
+      }
+      .aboutus-decription{
+        top:258px;
+        width: 500px;
+        font-size:15px;
+      }
+      
+      .branch-heading h1{
+        top: 550px;
+        width: 100%;
+      }
+
+      .Branch1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+          position:relative;
+          left:3%;
+          margin:0;
+          top:580px;
+          width: 90%; 
+          height: 800px;
+          border: 3px solid white;
+          padding: 10px;
+          
+          .branch1_img img{
+            position: absolute;
+            left: 10px;
+            width: 100%; 
+            height: 600px; 
+            top: 10px;
+            float:inline-start;
+          }
+        
+          .branch1_heading {
+            font-size: 16px;
+          }
+        
+          .Branch1_description{
+            left:100px;
+            
+            top: 100px;
+          }
+        
+          .map1 {
+           left: 40px;
+           top: 430px;
+           width:450px;
+           height: 350px;
+           position: absolute;
+          }
+        
+      }
+
+  
+
+    
+      .Branch2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+          position:relative;
+          left:3%;
+          margin:0;
+          top:650px;
+          width: 90%; 
+          height: 900px;
+          border: 3px solid white;
+          padding: 10px;
+          
+          .branch2_img img{
+            position: absolute;
+            left: 10px;
+            width: 100%; 
+            height: 800px; 
+            top: 10px;
+            float:inline-start;
+          }
+        
+          .branch2_heading {
+            font-size: 16px;
+          }
+        
+          .Branch2_description{
+            right:50px;
+            width: 450px;
+            
+            top: 300px;
+          }
+        
+          .map2 {
+           left: 20px;
+           top: 550px;
+           width:480px;
+           height: 350px;
+           position: absolute;
+          }
+        
+      }
+
+      .Branch3{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+          position:relative;
+          left:3%;
+          margin:0;
+          top:700px;
+          width: 90%; 
+          height: 800px;
+          border: 3px solid white;
+          padding: 10px;
+          
+          .branch3_img img{
+            position: absolute;
+            left: 10px;
+            width: 100%; 
+            height: 600px; 
+            top: 10px;
+            float:inline-start;
+          }
+        
+          .branch3_heading {
+            font-size: 16px;
+          }
+        
+          .Branch3_description{
+            left:30px;
+            
+            top: 250px;
+          }
+        
+          .map3 {
+           left: 40px;
+           top: 450px;
+           width:450px;
+           height: 350px;
+           position: absolute;
+          }
+        
+      }
+
+
+
+     .services-heading h1{
+      background-color: white;
+      color: green;
+      width: 100%;
+      top: 3350px;
+      position: absolute;
+      font-size: 25px;
+     }
+     
+     .table{
+      top:800px
+     }
+
+
+      .table tbody tr, tbody td{
+        display:block;
+        
+    }
+    .table tbody {
+      position:absolute;
+      width: 400px;
+      margin-left: 5px;
+      padding: 10px;
+      margin-right: 5px;
+    }
+    
+
+    .table thead tr{
+        display:none;
+}
+    
+
+ .table tfoot {
+  bottom: 10px;
+  display: none;
+ }
+
+ .border-color th{
+  border:none;
+  color: none;
+  background-color: none;
+ }
+
+
+ .footer-container{
+  top: 3900px;
+ }
+ 
+ 
+
+
+      
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Grocies Supermarket",
+    "short_name": "GS",
+    "description": "A simple example of a Progressive Web App",
+    "start_url": "/home.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffd700",
+    "icons": [
+      {
+        "src": "Grocies_supermarket_logo.png",
+        "sizes": "447x439",
+        "type": "image/png"
+      },
+      {
+        "src": "tiktokicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
