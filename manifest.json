@@ -2,7 +2,7 @@
     "name": "Grocies Supermarket",
     "short_name": "GS",
     "description": "A simple example of a Progressive Web App",
-    "start_url": "/index.html",
+    "start_url": "/WDOSProject01/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ffd700",
